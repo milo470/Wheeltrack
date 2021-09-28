@@ -1,0 +1,48 @@
+.uno{
+    grid-column: 1 / 11;
+    grid-row: 1;
+    text-align: center;
+
+}
+.dos{
+    grid-column: 2 / 10;
+    grid-row: 2;
+}
+.tres{
+    border-color:black;
+    border: 1px solid black;
+    grid-column: 2 / 10;
+    grid-row: 3/9;
+    
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(147,0,0,1) 80%, rgba(0,21,25,1) 100%);
+
+}
+.foto{
+    border-color:black;
+    border: 1px solid black;
+    grid-column: 9 / 11;
+    grid-row: 1;
+    background-color: white;
+}
+.mapa{
+    border-color:black;
+    border: 1px solid black;
+    grid-column: 4 / 7;
+    grid-row: 4/7;
+   
+}
+.pie{
+    border-color:black;
+    border: 1px solid black;
+    grid-column: 1 / 11;
+    grid-row: 9;
+    text-align: center;
+    
+}
